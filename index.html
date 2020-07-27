@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Nigerian Writers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Rate your favorite Nigerian writers</h1>
+    <div class="container">
+        <div class="form form-choice">
+          <select id="writer-select">
+              <option class="disabled" value="0" disabled>Select Writer</option>
+              <option value="chimamanda">Chimamada Ngozie Adichie</option>
+              <option value="chika">Chika Unigwe</option>
+              <option value="chigozie">Chigozie Obioma</option>
+              <option value="lola">Lola Shoneyin</option>
+              <option value="akwaeke">Akwaeke Emezi</option>
+              <option value="elnathan">Elnathan John</option>
+            </select>
+        </div>
+        <div class="form">
+          <input type="number" id="rating-control" step="0.1" max="6" placeholder="Rate 1 - 5" disabled>
+        </div>
+      
+        <table class="table">
+          <thead>
+            <tr class="space">
+              <th>Writers</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="chimamanda">
+              <td>Chimamada Ngozie Adichie</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+              </td>
+            </tr>
+            <tr class="chika">
+              <td>Chika Unigwe</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+              </td>
+            </tr>
+            <tr class="chigozie">
+              <td>Chigozie Obioma </td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+              </td>
+            </tr>
+            <tr class="lola">
+              <td>Lola Shoneyin</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+              </td>
+            </tr>
+            <tr class="akwaeke">
+              <td>Akwaeke Emezi</td>
+              <td>
+                <div class="stars-outer">
+                  <div class="stars-inner"></div>
+                </div>
+                <span class="number-rating"></span>
+              </td>
+            </tr>
+            <tr class="elnathan">
+                <td>Elnathan John</td>
+                <td>
+                  <div class="stars-outer">
+                    <div class="stars-inner"></div>
+                  </div>
+                  <span class="number-rating"></span>
+                </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

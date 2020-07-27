@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Satisfy', cursive;
+    background:#58656D;
+    
+
+}
+
+.container, h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    padding:1rem;
+    background-color:#F19E8E;
+}
+
+.form{
+    margin:.6rem;
+   
+}
+
+#writer-select{
+    font-family: 'Satisfy', cursive;
+    width:300px;
+}
+
+select>option{
+    background:#58656D;
+    font-family: 'Satisfy', cursive;
+    color:white;
+    font-size:1.1rem;
+}
+.disabled{
+    font-family: 'Satisfy', cursive;
+    font-size:.8rem;
+    color:gray;
+}
+
+.table{
+    background:#98756F;
+   width:400px;
+   padding:2rem;
+}
+
+.space{
+    display:flex;
+    justify-content: space-between;
+   font-size:1.1rem;
+   color:#3F012C;
+   letter-spacing: .4rem;
+   margin:1rem;
+}
+
+
+
+
+tr:nth-child(even) {
+    background-color: #F19E8E;
+    
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+  }
+  
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+  }
+  
