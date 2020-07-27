@@ -32,7 +32,7 @@ const ratings = {
   });
 
   // Rating control change
-  ratingControl.addEventListener('blur', (e) => {
+  ratingControl.addEventListener('change', (e) => {
     const rating = e.target.value;
 
     // Make sure 5 or under
